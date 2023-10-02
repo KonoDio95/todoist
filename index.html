@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <header>
+        <!-- menu retrátil lateral esquerda -->
+        <input type="checkbox" id="check">
+        <label id="icone" for="check"></label>
+        <section class="barra">
+            <nav>
+                <a href="#"><section class="Link">Home</section></a>
+                <a href="pages/sobre.html"><section class="Link">Sobre</section></a>
+                <a href="pages/ajuda.html#"><section class="Link">Ajuda</section></a>
+            </nav>
+        </section>
+        <!-- barra fixa azul horizontal -->
+
+        <label for="menu-hamburguer">
+            <section id="menu-hamburguer">
+                <span class="hamburguer"></span>
+            </section>
+        </label>        
+    </header>
+    
+    <main class="container">
+        <section class="todo_title">
+            Lista de tarefas
+        </section>
+
+        <section class="todo_new-item" id="newItem">
+            <section>&and;</section>
+            <input type="text" placeholder="Digite e pressione enter para adicionar a tarefa">
+            <section>&and;</section>
+        </section>
+
+        <section class="todo_list" id='todoList'></section>
+
+    </main>
+    <script src="js/main.js" defer></script>
+</body>
+
+<footer>
+    Made by @Wagner
+</footer>
+</html>
